@@ -1,0 +1,169 @@
+/********* MOBILE RESPOSIVE **********/
+
+/*********** NAVBAR  ***********/
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header .booki {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    width: 100%;
+  }
+  .navbar {
+    display: flex;
+    flex-basis: 100%;
+  }
+  .navbar a {
+    padding: 32px 0;
+  }
+
+  .navbar .link_active {
+    border-bottom: 3px solid var(--charte-blue);
+    border-top: none;
+    width: 50%;
+  }
+  .navbar .link {
+    width: 50%;
+  }
+  .navbar .link {
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  .navbar a:hover {
+    border-top: none;
+    border-bottom: solid 3px var(--charte-blue);
+  }
+}
+
+/************ Searchbar ************/
+
+@media screen and (max-width: 768px) {
+  .research {
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+  .desc-search h1 {
+    font-size: 1.5rem;
+  }
+  form {
+    width: 90%;
+  }
+  form .icon_location {
+    padding: 10px;
+  }
+  form input[type="search"] {
+    width: 60px;
+    height: 60px;
+    width: 80%;
+  }
+  .submit-search {
+    border-radius: 0 15px 15px 0;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: var(--charte-blue);
+    color: #fff;
+    visibility: visible !important;
+  }
+  .submit-search i {
+    font-size: 20px;
+  }
+
+  form input[type="submit"] {
+    display: none;
+  }
+}
+/******* Infos/Filters *****/
+@media screen and (max-width: 768px) {
+  .filters {
+    width: 100%;
+  }
+  .filters h3 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+/************ Hébergements à Marseille ************/
+
+@media screen and (max-width: 768px) {
+  .accomodation {
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding: 0;
+  }
+  .accomodation .city {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    max-width: 100%;
+    background: none;
+  }
+  .accomodation_titile h1 {
+    font-size: 1.5rem;
+  }
+}
+/********** Les plus populaires  **********/
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+  main {
+    width: 100%;
+    padding: 0;
+  }
+
+  .popular {
+    width: 90%;
+    order: -1;
+  }
+  .popular_content {
+    width: 100%;
+  }
+}
+/********** Activités à Marseille **********/
+@media screen and (max-width: 768px) {
+  .activite {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 100%;
+    padding-left: 20px;
+    gap: 2rem 2rem;
+  }
+
+  .activite_title {
+    grid-column: 1/-1;
+  }
+  .activite_card {
+    width: 100%;
+  }
+  .activite_img img {
+    height: 160px;
+  }
+}
+
+/********** Footer **********/
+@media screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    width: 100%;
+  }
+  .contain_footer {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .bloc {
+    width: 100%;
+    padding: 0;
+  }
+}

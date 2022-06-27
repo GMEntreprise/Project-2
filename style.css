@@ -18,9 +18,7 @@ a {
   text-decoration: none;
 }
 main {
-  max-width: 1440px;
-  /* padding: 0 32px; */
-  padding-left: 120px;
+  padding: 0 46px;
 }
 h1 {
   margin: 10px 0;
@@ -47,8 +45,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1499px;
-  padding-left: 85px;
+  padding: 0 13px;
 }
 
 header #logo {
@@ -308,8 +305,15 @@ form .submit-search {
 .card_img .card_title {
   margin: 0.5rem;
 }
+
+.card_title h4,
+p {
+  margin: 0;
+  line-height: 1.6;
+}
 .stars {
   color: var(--charte-blue);
+  line-height: 1.8;
 }
 .grey {
   color: var(--grey-stars);

@@ -121,8 +121,9 @@
   }
 
   .popular {
-    width: 90%;
+    width: 92%;
     order: -1;
+    border-radius: 0px;
   }
   .popular_content {
     width: 100%;

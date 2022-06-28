@@ -94,13 +94,13 @@
 @media screen and (max-width: 768px) {
   .accomodation {
     grid-template-columns: 1fr;
-    width: 90%;
+    width: 100%;
     padding: 0;
   }
   .accomodation .city {
     display: grid;
     grid-template-columns: 1fr;
-    width: 90%;
+
     max-width: 100%;
     background: none;
   }
@@ -121,7 +121,7 @@
   }
 
   .popular {
-    width: 92%;
+    /* width: 92%; */
     order: -1;
     border-radius: 0px;
   }
